@@ -7,7 +7,7 @@
           "type": "uint256"
         }
       ],
-      "name": "_companydetails",
+      "name": "_companyDetails",
       "outputs": [
         {
           "internalType": "uint256",
@@ -76,7 +76,7 @@
     },
     {
       "inputs": [],
-      "name": "getAllCampanies",
+      "name": "getAllCompanies",
       "outputs": [
         {
           "components": [
@@ -101,8 +101,8 @@
               "type": "bool"
             }
           ],
-          "internalType": "struct SimpleContract.Companydetails[]",
-          "name": "camp",
+          "internalType": "struct SimpleContract.CompanyDetails[]",
+          "name": "",
           "type": "tuple[]"
         }
       ],
@@ -142,7 +142,7 @@
               "type": "bool"
             }
           ],
-          "internalType": "struct SimpleContract.Companydetails",
+          "internalType": "struct SimpleContract.CompanyDetails",
           "name": "",
           "type": "tuple"
         }

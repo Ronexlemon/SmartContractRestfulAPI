@@ -5,6 +5,11 @@
   "author": "ronex",
   "license": "MIT",
   "dependencies": {
-    "ethers": "^6.11.1"
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "nodemon node server.js"
   }
 }

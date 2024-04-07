@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/companyDetail/:id", async (req, res) => {
+router.post("/companyDetail/:id", async (req, res) => {
     try {
         const { id } = req.params;
         res.status(200).json({ data: id, msg: "success" });
@@ -10,7 +10,7 @@ router.get("/companyDetail/:id", async (req, res) => {
     }
 });
 
-router.get("/allcompanyDetails",async(req,res)=>{
+router.post("/allcompanyDetails",async(req,res)=>{
     try{
         
         res.status(200).json({msg:"success"});

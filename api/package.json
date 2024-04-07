@@ -1,0 +1,10 @@
+{
+  "name": "simplecontractapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "ronex",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.11.1"
+  }
+}

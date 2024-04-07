@@ -1,0 +1,153 @@
+[
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "_companydetails",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "numberOfEmployees",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "annualRevenue",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "companyName",
+          "type": "string"
+        },
+        {
+          "internalType": "bool",
+          "name": "isRegistered",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "companyIdex",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_numberOfEmployees",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_annualRevenue",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_companyName",
+          "type": "string"
+        },
+        {
+          "internalType": "bool",
+          "name": "_isRegistered",
+          "type": "bool"
+        }
+      ],
+      "name": "createCompany",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAllCampanies",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "numberOfEmployees",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "annualRevenue",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "companyName",
+              "type": "string"
+            },
+            {
+              "internalType": "bool",
+              "name": "isRegistered",
+              "type": "bool"
+            }
+          ],
+          "internalType": "struct SimpleContract.Companydetails[]",
+          "name": "camp",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "getCompanyById",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "numberOfEmployees",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "annualRevenue",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "companyName",
+              "type": "string"
+            },
+            {
+              "internalType": "bool",
+              "name": "isRegistered",
+              "type": "bool"
+            }
+          ],
+          "internalType": "struct SimpleContract.Companydetails",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
